@@ -55,9 +55,9 @@ def mergeSort(arr):
     return arr
 
 unsorted = []
-n = 5000000
+n = input("Enter the number of elements in the array: ")
 for x in range(n):
-    unsorted.append(random.randint(1, 10001))
+    unsorted.append(random.randint(0, 10000))
 print(unsorted)
 t0 = time.time()
 print(mergeSort(unsorted))
