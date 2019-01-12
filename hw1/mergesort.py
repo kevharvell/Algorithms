@@ -57,6 +57,7 @@ lines = readFile.read().splitlines()
 readFile.close()
 
 mergeFile = open("merge.txt", "w+")
+outputLines = ""
 
 for line in lines:
     # Turn each line into an array
@@ -70,6 +71,9 @@ for line in lines:
     strArr = [str(num) for num in sortedArr]
     outputLine = ' '.join(strArr)
     print(outputLine)
-    mergeFile.write(outputLine + '\n')
+    outputLines += outputLine + "\n"
+
+outputLines = outputLines.rstrip('\n')
+mergeFile.write(outputLines)
 
 mergeFile.close()
