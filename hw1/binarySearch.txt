@@ -1,0 +1,14 @@
+ternarySearch(array, Lindex, Rindex, x)
+    if r >= 1
+        mid1 = Lindex + (Rindex - Lindex) / 3
+        mid2 = Rindex - (Rindex - Lindex) / 3
+        if array[mid1] == x
+            return mid1
+        if array[mid2] == x
+            return mid2
+        if x < array[mid1]
+            return ternary_search(array, Lindex, mid1 - 1, x)
+        else if x > array[mid2]
+            return ternary_search(array, mid2 + 1, Rindex, x)
+        else
+            return ternary_search(array, mid1 + 1, mid2 - 1, x)

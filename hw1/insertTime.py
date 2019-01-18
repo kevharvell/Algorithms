@@ -30,7 +30,7 @@ def insertionSort(arr):
 
 
 unsorted = []
-n = input("Enter the number of elements in the array: ")
+n = int(input("Enter the number of elements in the array: "))
 for x in range(n):
     unsorted.append(random.randint(0, 10000))
 print(unsorted)
