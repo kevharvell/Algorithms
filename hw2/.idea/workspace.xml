@@ -4,11 +4,8 @@
     <list default="true" id="26bf3bea-2061-4540-b406-9f9cab9f8526" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../HW1_HarvellKevin.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/HW1_HarvellKevin.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/HW1_HarvellKevin.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/hw1_3_HarvellKevin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/hw1__4a_HarvellKevin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/insertTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/insertTime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/mergeTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/mergeTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergesort4_4" beforeDir="false" afterPath="$PROJECT_DIR$/mergesort4_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergesort4_5" beforeDir="false" afterPath="$PROJECT_DIR$/mergesort4_5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mergesort4_4">
+        <entry file="file://$PROJECT_DIR$/mergesort4_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+            <state relative-caret-position="268">
+              <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mergesort4_5">
+        <entry file="file://$PROJECT_DIR$/mergesort4_5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
+            <state relative-caret-position="415">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="e#496#509#0" expanded="true" />
               </folding>
@@ -64,6 +61,8 @@
         <option value="$PROJECT_DIR$/data.txt" />
         <option value="$PROJECT_DIR$/mergesort4" />
         <option value="$PROJECT_DIR$/mergesort4_5" />
+        <option value="$PROJECT_DIR$/mergesort4_4.py" />
+        <option value="$PROJECT_DIR$/mergesort4_5.py" />
       </list>
     </option>
   </component>
@@ -128,7 +127,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Python Console" order="1" />
@@ -143,7 +142,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.27825466" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.27825466" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -157,17 +156,17 @@
     <entry file="file://$PROJECT_DIR$/merge4.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mergesort4_4">
+    <entry file="file://$PROJECT_DIR$/mergesort4_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        <state relative-caret-position="268">
+          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mergesort4_5">
+    <entry file="file://$PROJECT_DIR$/mergesort4_5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
+        <state relative-caret-position="415">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="e#496#509#0" expanded="true" />
           </folding>
