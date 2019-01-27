@@ -1,0 +1,31 @@
+PSEUDOCODE
+
+CanoeCost(R)
+    n = number of rows in R
+    C[1] = 0                            # Cost initialized to 0
+    for i = 2 to n
+        min = R[1, i]                   # Set minimum to i stop cost
+        for j = 2 to i - 1
+            if C[j] + R[j, i] < min     # If the previous cost + the cost from j to i is less than min
+                min = C[j] + R[j, i]    # Set min to the cost + cost from j to i
+            C[i] = min                  # Store the minimum for next iteration
+    return C[n]
+
+PrintSequence(R)
+    n = number of rows in R
+    C[1] = 0                            # Cost initialized to 0
+    P[1] = []
+    for i = 2 to n
+        min = R[1, i]                   # Set minimum to i stop cost
+        push 1 to P[i]                  # Print 1 for 1st stop; must be visited
+        for j = 2 to i - 1
+            if C[j] + R[j, i] < min     # If the previous cost + the cost from j to i is less than min
+                min = C[j] + R[j, i]    # Set min to the cost + cost from j to i
+                push j to P[i]          # Everytime the min is changed, print the stop
+            C[i] = min                  # Store the minimum for next iteration
+    for i = 1 to P[P.length].length     # Go to last array in P to print each element
+        print P[P.length][i]            # Print each element in last P array
+
+
+
+

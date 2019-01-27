@@ -1,0 +1,16 @@
+items = []
+for w = 0 to W
+	B[0,w] = 0 	// 0 item’s
+for i = 0 to n
+	B[i,0] = 0	 // 0 weight
+	for w = 1 to W
+		if wi <= w // item i can be part of the solution
+			if bi + B[i-1,w-wi] > B[i-1,w]
+				B[i,w] = bi + B[i-1,w- wi]
+				if w == W
+				    items.push(i)
+			else
+				B[i,w] = B[i-1,w]
+				if w == W
+				    items.push(i)
+		else B[i,w] = B[i-1,w]  // wi > w item i is too big
