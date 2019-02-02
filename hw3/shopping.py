@@ -19,18 +19,24 @@ def knapSack(items, maxWeight):
     # Build table K[][] in bottom up manner
     for i in range(len(items) + 1):
         for w in range(maxWeight + 1):
+            # Zero out first row and column
             if i == 0 or w == 0:
                 K[i][w] = 0
+            # If item weight is less than iteration weight
             elif int(items[i - 1][1]) <= w:
                 K[i][w] = max(int(items[i - 1][0]) + K[i - 1][w - int(items[i - 1][1])], K[i - 1][w])
+            # Take previous row best weight
             else:
                 K[i][w] = K[i - 1][w]
+    # Get the sequence of items
     pickedItems = []
     i = len(items)
     w = maxWeight
     while i > 0 and w > 0:
+        # If this item is the same as the row above, move on
         if K[i][w] == K[i - 1][w]:
             i -= 1
+        # Else, this is an item, move into pickedItems
         else:
             pickedItems.insert(0, i)
             i -= 1

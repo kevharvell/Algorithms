@@ -1,0 +1,10 @@
+PSEUDOCODE
+sort(jobs in descending order of penalties)
+T = []
+for i = min(deadlines) to max(deadlines)
+  push [i, []] to T
+  i += 1
+for i=0 to n
+  for j=T.length to 0
+    if deadline[i] <= T[j][0] and T[j][1] == null
+      push job[i] to T[j]

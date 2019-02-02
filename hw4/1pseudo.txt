@@ -1,0 +1,9 @@
+PSEUDOCODE
+sort(classes by start time)
+lecture_hall = 0
+for i = 1 to n
+    if class i works with a lecture hall j
+        push i in j
+    else
+        lecture_hall += 1
+        push i to lecture_hall

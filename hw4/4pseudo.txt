@@ -1,0 +1,15 @@
+PSEUDOCODE
+
+activitySelector(activityArr)
+    activityNum = 0
+    startTime = 1
+    finishTime = 2
+    mergeSort(activityArr)
+    n = len(activityArr)
+    selectedActivities = activityArr[n][activityNum]
+    i = 1
+    for m = 2 to n
+        if activityArr[m][finishTime] <= activityArr[i][startTime]
+            push activityArr[m][activityNum] to selectedActivities
+            i = m
+    return selectedActivities
